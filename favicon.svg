@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0B1528"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="favGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- High-contrast badge background -->
+  <rect width="64" height="64" rx="14" fill="url(#favBg)"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="none" stroke="url(#favGold)" stroke-width="2"/>
+
+  <!-- LABOUR LAW BALANCE SCALE BEAM & PIVOT -->
+  <path d="M12 20 L52 20" stroke="url(#favGold)" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="12" cy="20" r="1.8" fill="#F59E0B"/>
+  <circle cx="52" cy="20" r="1.8" fill="#F59E0B"/>
+  <circle cx="32" cy="20" r="3" fill="#DC2626" stroke="url(#favGold)" stroke-width="1"/>
+
+  <!-- Forehead Sacred Urdhva Pundra Tilak / Central Pillar of Justice -->
+  <path d="M29.5 8 Q32 5 34.5 8 L34 20 L30 20 Z" fill="url(#favGold)"/>
+  <path d="M31 10 L33 10 L33 18 L31 18 Z" fill="#DC2626"/>
+  <path d="M30 20 L30 35 Q32 38 34 35 L34 20 Z" fill="url(#favGold)" opacity="0.9"/>
+  <line x1="32" y1="20" x2="32" y2="35" stroke="#DC2626" stroke-width="1.2"/>
+
+  <!-- Left Suspension Strings & Eye / Scale Pan -->
+  <line x1="12" y1="20" x2="17" y2="28" stroke="url(#favGold)" stroke-width="0.8" stroke-dasharray="1 1"/>
+  <line x1="28" y1="20" x2="25" y2="28" stroke="url(#favGold)" stroke-width="0.8" stroke-dasharray="1 1"/>
+  <circle cx="21" cy="35" r="9" fill="#DC2626" stroke="url(#favGold)" stroke-width="1"/>
+  <circle cx="21" cy="35" r="7" fill="#FFFFFF"/>
+  <circle cx="21" cy="35" r="4.2" fill="#0A0A0A"/>
+  <circle cx="22.5" cy="33.5" r="1.4" fill="#FEF08A"/>
+
+  <!-- Right Suspension Strings & Eye / Scale Pan -->
+  <line x1="36" y1="20" x2="39" y2="28" stroke="url(#favGold)" stroke-width="0.8" stroke-dasharray="1 1"/>
+  <line x1="52" y1="20" x2="47" y2="28" stroke="url(#favGold)" stroke-width="0.8" stroke-dasharray="1 1"/>
+  <circle cx="43" cy="35" r="9" fill="#DC2626" stroke="url(#favGold)" stroke-width="1"/>
+  <circle cx="43" cy="35" r="7" fill="#FFFFFF"/>
+  <circle cx="43" cy="35" r="4.2" fill="#0A0A0A"/>
+  <circle cx="44.5" cy="33.5" r="1.4" fill="#FEF08A"/>
+
+  <!-- Divine Red Smile & Golden Foundation -->
+  <path d="M19 47 Q32 58 45 47 Q32 52 19 47 Z" fill="#DC2626" stroke="url(#favGold)" stroke-width="0.8"/>
+  <line x1="24" y1="57" x2="40" y2="57" stroke="url(#favGold)" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
