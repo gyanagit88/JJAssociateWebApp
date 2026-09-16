@@ -160,13 +160,23 @@ export const Footer: React.FC<FooterProps> = ({
                 </a>
               </div>
 
-              <div className="pt-2">
+              <div className="pt-2 space-y-2">
                 <button
                   onClick={onOpenConsultation}
                   className="w-full py-2 px-3 rounded-lg bg-blue-700 hover:bg-blue-600 text-white font-bold text-xs transition-colors"
                 >
                   Request a Consultation
                 </button>
+
+                <a
+                  href="/jay_jagannath_associates_v0.1.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 py-2 px-3 rounded-lg border border-emerald-500/50 bg-emerald-600/10 text-emerald-200 hover:bg-emerald-600/15 font-bold text-xs transition-colors"
+                >
+                  <ExternalLink className="w-3.5 h-3.5" />
+                  Download PDF Brochure
+                </a>
               </div>
             </div>
           </div>
