@@ -9,7 +9,7 @@ export const COMPANY_INFO = {
   proprietor: 'JHARASHREE ROUTRAY',
   phone: '7683943583',
   phoneFormatted: '+91 76839 43583',
-  email: 'labourlawcompliance01@gmail.com',
+  email: 'diptiranjan@jjandassociate.co.in',
   operatingHours: 'Monday – Saturday: 9:30 AM – 6:30 PM (IST)',
   // Location placeholders requiring owner confirmation prior to final launch
   location: {
