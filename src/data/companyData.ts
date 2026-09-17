@@ -424,7 +424,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     question: 'How can I discuss my business requirement?',
     answer:
-      'You can contact Jay Jagannath Associates directly by phone at 7683943583, send an email to labourlawcompliance01@gmail.com, or submit the consultation enquiry form on this website. Our team will review your requirement and reach out promptly.',
+      'You can contact Jay Jagannath Associates directly by phone at 7683943583, send an email to diptiranjan@jjandassociate.co.in, or submit the consultation enquiry form on this website. Our team will review your requirement and reach out promptly.',
     category: 'consultation',
   },
   {

@@ -162,18 +162,6 @@ export const FeaturedService: React.FC<FeaturedServiceProps> = ({
                     </div>
                   </div>
                 </div>
-
-                <div className="p-3 rounded-lg bg-blue-950/80 border border-blue-800/40 text-center">
-                  <span className="text-xs text-slate-300">
-                    Proprietor Contact: <strong>{COMPANY_INFO.proprietor}</strong> •{' '}
-                    <a
-                      href={`tel:${COMPANY_INFO.phone}`}
-                      className="text-blue-300 font-bold hover:underline"
-                    >
-                      {COMPANY_INFO.phoneFormatted}
-                    </a>
-                  </span>
-                </div>
               </div>
             </div>
           </div>

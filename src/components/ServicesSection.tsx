@@ -237,7 +237,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
             onClick={() => onOpenConsultation()}
             className="shrink-0 px-6 py-3 rounded-lg bg-white hover:bg-blue-50 text-blue-900 font-bold text-sm shadow-xs transition-colors flex items-center gap-2"
           >
-            <span>Consult JHARASHREE ROUTRAY</span>
+            <span>Book Consultation</span>
             <ArrowRight className="w-4 h-4 text-blue-700" />
           </button>
         </div>

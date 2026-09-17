@@ -98,7 +98,7 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ onOpenConsultation }) 
                 Provide direct, requirement-focused support to businesses tailored to their specific operational scale and commercial jurisdiction.
               </p>
               <div className="text-xs font-semibold text-cyan-800 bg-cyan-50/70 p-2.5 rounded-lg border border-cyan-100">
-                Direct accessibility to proprietor JHARASHREE ROUTRAY.
+                Direct accessibility to senior compliance expertise.
               </div>
             </div>
 

@@ -203,7 +203,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                     {COMPANY_INFO.phoneFormatted}
                   </div>
                   <div className="text-xs text-emerald-600 font-semibold mt-0.5">
-                    Click to call directly on 7683943583
+                    Click to initiate direct call
                   </div>
                 </div>
               </a>

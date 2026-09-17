@@ -110,35 +110,20 @@ export const Hero: React.FC<HeroProps> = ({
                 <HelpCircle className="w-4 h-4 text-blue-400" />
                 <span>Which Compliance Do I Need?</span>
               </button>
-
-              <a
-                href="/jay_jagannath_associates_v0.1.pdf"
-                target="_blank"
-                rel="noreferrer"
-                className="px-4 py-3.5 rounded-lg border border-emerald-500/50 bg-emerald-600/15 hover:bg-emerald-600/25 text-emerald-200 font-semibold text-sm flex items-center justify-center gap-2 transition-colors"
-                id="hero-pdf-download-btn"
-              >
-                <FileText className="w-4 h-4 text-emerald-300" />
-                <span>Download Company PDF</span>
-              </a>
             </div>
 
             {/* Direct Contact Callout */}
-            <div className="pt-2 flex items-center gap-3 text-xs sm:text-sm text-slate-400">
-              <div className="flex items-center gap-1.5 text-slate-300">
+            <div className="pt-2 flex items-center gap-2 text-xs sm:text-sm text-slate-400">
+              <span className="flex items-center gap-1.5 text-slate-300">
                 <PhoneCall className="w-4 h-4 text-emerald-400" />
-                <span>Direct Proprietor Contact:</span>
-                <a
-                  href={`tel:${COMPANY_INFO.phone}`}
-                  className="text-white font-bold hover:underline"
-                >
-                  {COMPANY_INFO.phoneFormatted}
-                </a>
-              </div>
-              <span className="text-slate-600">|</span>
-              <span className="text-slate-300">
-                Proprietor: <strong className="text-white">{COMPANY_INFO.proprietor}</strong>
+                <span>Call for Immediate Consultation:</span>
               </span>
+              <a
+                href={`tel:${COMPANY_INFO.phone}`}
+                className="text-white font-bold hover:text-emerald-400 transition-colors"
+              >
+                {COMPANY_INFO.phoneFormatted}
+              </a>
             </div>
           </div>
 
